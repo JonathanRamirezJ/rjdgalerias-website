@@ -126,6 +126,7 @@
     "moduleDirectories": ["node_modules"]
   },
   "lint-staged": {
+    "*.js": ["eslint --fix", "git add"],
     "*.scss": ["stylelint", "git add"],
     "*.{js,json}": ["prettier --write", "git add"]
   },
