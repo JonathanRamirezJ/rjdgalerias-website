@@ -1,0 +1,30 @@
+/* stylelint-disable rscss/no-descendant-combinator, rscss/class-format */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background-color: $color-white;
+}
+
+body,
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+.navbar-nav span[role=button] {
+  padding: 15px;
+  display: inline-block;
+  line-height: 20px;
+}
+
+.carousel-caption {
+  background-color: rgba($color-black, 0.55);
+  border-radius: 10px;
+  left: 10%;
+  right: 10%;
+  bottom: 45%;
+}
+/* stylelint-enable */

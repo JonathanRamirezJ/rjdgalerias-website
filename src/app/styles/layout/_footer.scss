@@ -1,0 +1,18 @@
+/* stylelint-disable rscss/no-descendant-combinator, rscss/class-format */
+.footer-custom {
+  padding: 20px;
+
+  .image {
+    width: 100%;
+  }
+
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .copyright {
+    padding: 5px 0;
+  }
+}
+/* stylelint-enable */
