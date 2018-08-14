@@ -1,6 +1,6 @@
 // Third-party dependencies
 import React from "react";
-import { Grid, Row, Col, PageHeader, Alert } from "react-bootstrap";
+import { Grid, Row, Col, PageHeader } from "react-bootstrap";
 
 // Own actions/constants/components
 import NavBar from "Components/NavBar";
@@ -16,17 +16,6 @@ function App() {
         <Row>
           <Col md={12}>
             <CarosuelImage />
-          </Col>
-        </Row>
-        <br />
-        <Row>
-          <Col md={12}>
-            <Alert bsStyle="warning">
-              <strong>Aviso importante! </strong>
-              SALVADOR 29A: CERRADO POR REMODELACION, LO ESTAREMOS ATENDIENDO
-              EN: MESONES NO. 18, ESQUINA CON BOLIVAR, ATENTAMENTE: ESPACIO
-              MUSICAL RJD.
-            </Alert>
           </Col>
         </Row>
         <Row>

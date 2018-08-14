@@ -12,8 +12,8 @@ const Footer = () => (
           <h3 className="_text-white">Nosotros:</h3>
           <p className="_text-white">
             Somos la empresa con mayor cantidad de productos de alta calidad,
-            nos especializamos en instrumentos musicales, audio profesional,
-            residencial y car audio.
+            nos especializamos en instrumentos musicales, audio profesional y
+            residencial.
           </p>
         </Col>
         <Col md={4}>
@@ -29,14 +29,6 @@ const Footer = () => (
             </li>
             <li>
               <a
-                href="mailto:mesones18@rjdgalerias.com"
-                className="_text-white"
-              >
-                <Glyphicon glyph="envelope" /> Correo Electrónico
-              </a>
-            </li>
-            <li>
-              <a
                 href="https://api.whatsapp.com/send?phone=525526637907"
                 className="_text-white"
               >
@@ -45,10 +37,18 @@ const Footer = () => (
             </li>
             <li>
               <a
-                href="https://api.whatsapp.com/send?phone=525526637907"
+                href="https://api.whatsapp.com/send?phone=525545689074"
                 className="_text-white"
               >
-                <Glyphicon glyph="comment" /> Whats Salvador 29
+                <Glyphicon glyph="comment" /> Whats Mesones 18A
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:mesones18@rjdgalerias.com"
+                className="_text-white"
+              >
+                <Glyphicon glyph="envelope" /> Correo Electrónico
               </a>
             </li>
           </ul>

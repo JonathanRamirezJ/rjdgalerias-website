@@ -12,7 +12,7 @@ const CarosuelImage = () => (
       />
       <Carousel.Caption>
         <h3>RJD Galerias</h3>
-        <p>Observa a través del sonido.</p>
+        <p>Espacio musical.</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
