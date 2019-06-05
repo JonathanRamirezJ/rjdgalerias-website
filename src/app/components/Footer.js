@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 import { Grid, Row, Col, Glyphicon } from "react-bootstrap";
 
 const Footer = () => (
@@ -20,36 +21,40 @@ const Footer = () => (
           <h3 className="_text-white">Contáctanos:</h3>
           <ul className="list _text-white">
             <li>
-              <a
+              <Link
+                target="_blank"
                 href="https://www.facebook.com/RJDGalerias/"
                 className="_text-white"
               >
                 <Glyphicon glyph="thumbs-up" /> Facebook
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="https://api.whatsapp.com/send?phone=525526637907"
+              <Link
+                target="_blank"
+                href="https://twitter.com/RjdGalerias"
                 className="_text-white"
               >
-                <Glyphicon glyph="comment" /> Whats Mesones 18
-              </a>
+                <Glyphicon glyph="hand-right" /> Twitter
+              </Link>
             </li>
             <li>
-              <a
+              <Link
+                target="_blank"
                 href="https://api.whatsapp.com/send?phone=525545689074"
                 className="_text-white"
               >
-                <Glyphicon glyph="comment" /> Whats Mesones 18A
-              </a>
+                <Glyphicon glyph="comment" /> WhatsApp 525545689074
+              </Link>
             </li>
             <li>
-              <a
+              <Link
+                target="_blank"
                 href="mailto:mesones18@rjdgalerias.com"
                 className="_text-white"
               >
-                <Glyphicon glyph="envelope" /> Correo Electrónico
-              </a>
+                <Glyphicon glyph="envelope" /> mesones18@rjdgalerias.com
+              </Link>
             </li>
           </ul>
         </Col>
