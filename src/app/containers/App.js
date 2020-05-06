@@ -50,6 +50,24 @@ function App() {
               </Link>
             </p>
           </Col>
+          <Col md={3} xs={6} className="text-right">
+            <Link href="https://www.facebook.com/RJDGalerias/" target="_blank">
+              <img
+                src="./app/assets/network/facebook.png"
+                alt="fb"
+                className="fb-logo"
+              />
+            </Link>
+          </Col>
+          <Col md={3} xs={6} className="text-left">
+            <Link href="https://twitter.com/RjdGalerias" target="_blank">
+              <img
+                src="./app/assets/network/twitter.png"
+                alt="tw"
+                className="tw-logo"
+              />
+            </Link>
+          </Col>
           <Col md={6} xs={12} className="text-center">
             <Button bsStyle="success">
               <a
