@@ -21,6 +21,7 @@
         "specialLink": ["to", "hrefLeft", "hrefRight"],
         "aspects": ["noHref", "invalidHref", "preferButton"]
       }
-    ]
+    ],
+    "jsx-a11y/media-has-caption": "off"
   }
 }
